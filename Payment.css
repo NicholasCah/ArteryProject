@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Set the background color for the body */
+body {
+    background-color: #C3CACE; /* Warna latar belakang untuk body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tinggi 100% dari viewport */
+    margin: 0; /* Menghapus margin default */
+    padding: 0; /* Menghapus padding default */
+}
+
+/* Style the content */
+.content {
+    background-color: #FFFFFF; /* Warna latar belakang konten */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%; /* Gambar tidak akan melebihi 100% lebar elemen induknya */
+    height: 220px; /* Menjaga rasio aspek gambar */
+    width: 375px;
+    border-radius: 10px;
+}
+
+.col-8 {
+    background-color: #C4C4C4; /* Warna latar belakang konten */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.row{
+    padding-top: 10px;
+}
+
+.col-sm-4 {
+    margin-left: 30px;
+    width: 375px;
+    background-color: #C4C4C4; /* Warna latar belakang konten */
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.mb-3{
+    text-align: left;
+}
+
+

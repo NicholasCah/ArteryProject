@@ -1,0 +1,168 @@
+body{
+    background: #C3CACE;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    opacity: 95%;
+    top: 0;
+    left: 0;
+    background: #D9D9D9;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav .imgart img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding-right: 200px;
+    padding-top: 25px;
+}
+
+nav ul{
+    margin-top: 0px;
+    padding-left: 70px;
+}
+
+nav ul li{
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+nav ul li a p{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+nav .imglog{
+    padding-left: 370px;
+}
+
+nav .imglog img{
+    width: 60px;
+    padding-top: 25px;
+}
+
+main{
+    padding-top: 120px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.Upper{
+    width: 100%;
+    display: flex;
+}
+
+.Upper h1{
+    width: 20%;
+    margin: 0;
+    padding-left: 100px;
+}
+
+.Upper .SnC{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.Upper .Search{
+    width: 200px;
+    padding-right: 100px;
+    margin-right: 10px;
+}
+
+.Upper .Search input{
+    padding: 12px 20px 12px 10px;
+    width: 200px;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+}
+
+.Upper .Category a {
+    text-decoration: none;
+    color: black;
+}
+
+.Upper .Category a p{
+    justify-content: right;
+    cursor: pointer;
+    padding-right: 40px;
+    margin: 0;
+}
+
+.Events{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.Events img{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.Events_banner{
+    width: 950px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    height: 180px;
+    margin-top: 10px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.Events_banner .Events_Description h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Events_banner .Events_Description p{
+    margin-top: 0;
+    width: 800px;
+
+}
+
+.Events_banner .Events_Description .Events_DescriptionBold p{
+    font-weight:550;
+}
+
+.Price_Banner{
+    width: 150px;
+    height: 180px;
+}
+
+.Price{
+    width: 50px;
+    height: 30px;
+    background-color:#c4c4c4;
+    border-radius: 20px;
+    margin-top: 130px;
+    margin-left: 45px;
+}
+
+.Price_Banner p{
+    text-align: center;
+    padding-top: 5px;
+}
